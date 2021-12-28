@@ -1,3 +1,9 @@
+# What does this fork change?
+
+It adds a github action to push the state of this branch of ImGui.NET (v1.82.0) to nuget.org.
+
+It will be pushed with the PackageId ``ImGui.NET-newest`` and is unlisted. It can therefore not be confused with the original ImGui.NET nuget package, and is only meant for manual referencing in projects that may need features from 1.82.0, like the Table API or enums, like the MouseButton enum.
+
 # ImGui.NET
 
 This is a .NET wrapper for the immediate mode GUI library, Dear ImGui (https://github.com/ocornut/imgui). ImGui.NET lets you build graphical interfaces using a simple immediate-mode style. ImGui.NET is a .NET Standard library, and can be used on all major .NET runtimes and operating systems.
